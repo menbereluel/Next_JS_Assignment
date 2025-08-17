@@ -4,7 +4,7 @@ interface MarkerProps {
   text:String
 }
 
-function Marker({text}:MarkerProps)
+function RedBadge({text}:MarkerProps)
  {
 return(
   <div className="flex  gap-4 items-center ">
@@ -15,4 +15,4 @@ return(
   </div>
 )
 }
-export default Marker;
+export default RedBadge;
